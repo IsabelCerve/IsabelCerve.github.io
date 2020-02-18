@@ -1,14 +1,34 @@
-.topnav {
-  overflow: hidden;
-  background-color:#1f1f2e;
-  position: fixed; 
-  top: -1; 
-  width: 100%; 
+html {
+  scroll-behavior: smooth;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: right;
+body {
+  font-family: 'Sriracha', cursive;
+  font-weight: 400;
+  line-height: 1.4;
+  box-sizing: border-box;
+  
+}
+
+nav {
+  background-color: #1f1f2e;
+  overflow: hidden;
+  padding: 20px 0;
+  position: fixed;
+  text-align: center;
+  width: 100%; 
+  z-index: 1;
+}
+
+nav ul {
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -17,23 +37,9 @@
   font-family: 'Sriracha', cursive;
 }
 
-.topnav a:hover {
+nav ul li a:hover {
   background-color:#ccccff;
   color: black;
-}
-
-html {
-  box-sizing: border-box;
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-}
-
-
-body {
-  font-family: 'Sriracha', cursive;
-  font-size: 0rem; 
-  font-weight: 400;
-  line-height: 1.4;
 }
 
 h1 {
@@ -43,12 +49,12 @@ h1 {
   color:#ffffe6 ;
  margin:auto;
 }
+
 .welcome-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
   height: 100vh;
   padding: 11px 32px 32px;
   background-image: linear-gradient( 115deg,
@@ -59,6 +65,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;  
 }
+
 #description{
   font-size: 40px;
   font-weight: 100;
@@ -66,29 +73,56 @@ h1 {
   color: white ;
   margin:auto;
 }
+
 .about-me-section {
-  text-align: left;
   background: #25b79f;
-  width: 100%;
-  height: 90vh;
-  font-size: 20px;
   color: white ;
-  padding: 50px 32px 32px 32px;
-}
-.tools {
-  text-align: center;
-  padding: 5rem 2rem;
-  height: 100vh;
+  display: block;
   font-size: 20px;
+  padding: 95px 0;
+  position: relative;
+  text-align: left;
 }
-li a:hover {
-  background-color: #111111;
+
+.about-me-section p {
+  padding: 0 30%;
 }
+
+.courses, 
+.certificates {
+  display: block;
+  overflow: auto;
+  padding: 0 30%;
+}
+
+.left-column {
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+.right-column {
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+
+.tools {
+  display: block;
+  font-size: 20px;
+  padding: 0 30%;
+  text-align: center;
+}
+
+.tools ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
   background: #23a993;
-  width: 100%;
   height: 110vh;
   font-size: 20px;
   color: white ;
@@ -187,4 +221,14 @@ li a:hover {
 
 .contact-details:hover {
   transform: translateY(15px);
+}
+
+footer .copyright {
+  background-color: black;
+  color: white;
+  display: block;
+  padding: 20px 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
 }
