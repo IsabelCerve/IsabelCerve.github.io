@@ -1,0 +1,131 @@
+body {
+  padding-top: 56px;
+  background-color:#3d2314;
+}
+header {
+  background-image: url(images/backphoto.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-height: 550px!important;
+  }
+nav{
+font-family:'Abril Fatface', Georgia, "Times New Roman", serif; 
+}
+h5{
+font-family:'Abril Fatface', Georgia, "Times New Roman", serif;
+font-size: 50px; 
+}
+p{
+  font-family:'Acme', Georgia, "Times New Roman", serif; 
+}
+.dropdown-menu{
+  font-size: 30px; 
+}
+.h-100{
+margin-left: 480px;
+}
+.phrase{
+font-family:'Abril Fatface', Georgia, "Times New Roman", serif;
+font-size: 50px;
+color: whitesmoke;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+}
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.mb-3, .my-3 {
+  margin-bottom: 1rem!important;
+}
+.text-muted{
+  font-family:'Acme', Georgia, "Times New Roman", serif; 
+  font-size: 30px; 
+}
+.small-screen {
+  display: none;
+}
+.footer-small-screen {
+  display: none;
+}
+
+@media only screen and (max-width: 376px) { 
+  .division{
+    height:0px;
+  }
+  h5{
+    font-family:'Abril Fatface', Georgia, "Times New Roman", serif;
+    font-size: 30px; 
+    }
+  .footer-small-screen {
+    display: block;
+    background-color:whitesmoke;
+  }
+  .footer-big-screen {
+    display: none;
+  } 
+  .phrase{
+    font-size: 45px;
+  } }
+
+@media screen and (max-width: 769px) { 
+.small-screen {
+    display: block;
+  }
+.big-screen {
+    display: none;
+  }
+body {
+    padding-top: 0px;
+  }
+#big-logo{
+  display: none!important;
+}
+h5{
+  font-family:'Abril Fatface', Georgia, "Times New Roman", serif;
+  font-size: 30px; 
+  }
+.dropdown-menu{
+    font-size: 20px; 
+} 
+#map-container-google-9{
+  display: none!important;
+}
+.division{
+  height: 130px ;
+}
+#social{
+  padding-top: 30px;
+}
+.text-muted{
+font-size: 20px; 
+padding-right:0px;
+}
+#footer-information{
+font-size: 20px;  
+padding-top: 50px;
+padding-right: 30px;
+} 
+.footer-small-screen {
+  display: block;
+  background-color: whitesmoke;
+}
+.footer-big-screen {
+  display: none;
+}  
+}
+
+
+
+   
+   

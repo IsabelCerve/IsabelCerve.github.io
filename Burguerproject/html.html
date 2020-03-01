@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="description" content="Hamburger Restaurante">
+    <meta name="author" content="Elena Isabel Gomez Viejo">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="JS/scrips.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Hamburger Restaurant</title>
+  </head>
+<body>
+   <!---Navtab website-->
+ <section class="big-screen"> 
+   <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top">
+    <div class="container-fluid">
+      <button class="btn btn-secondary dropdown-toggle btn-lg mr-2" 
+      type="button" id="dropdownMenuButton" data-toggle="dropdown" 
+      aria-haspopup="true" aria-expanded="false">
+        MENU </button>
+      <div class="dropdown-menu" class="dropdown-content">
+            <a class="dropdown-item" href="#">Burguers</a>
+            <a class="dropdown-item " href="#">Sides</a>
+            <a class="dropdown-item " href="#">Vegetarian menu</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item " href="#">Allergen Info.</a>
+        </div>
+    <div class="h-100 row align-items-center">   
+      <a class="navbar-brand " href="#">
+        <img src="images/Burger1.png" alt="Logo" style="width:80px;" href="nav">
+      </a>
+    </div>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <button class="btn btn-secondary btn-lg" type="button" id="BookingButton" aria-haspopup="true" aria-expanded="false">BOOKING</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</section>
+ <!---Nav bar phone tablet-->
+ <section class="small-screen">
+ <nav id="nav-main" class="navbar navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand " href="#">
+      <img src="images/Burger1.png" alt="Logo" style="width:80px;" href="nav">
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsExample01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">BOOKING</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MENU</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="#">Burguers</a>
+          <a class="dropdown-item " href="#">Sides</a>
+          <a class="dropdown-item " href="#">Vegetarian menu</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item " href="#">Allergen Info.</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+  <!--Principal page-->
+<section alt="firstPage">
+  <header class="w-100 bg-cover" style="background-image:url('images/backphoto.jpg');" position: absolute; left: 0%; opacity: 0; aria-hidden="true">
+    <img class="img-fluid d-block mx-auto" src="images/Logo1.png" alt="" id="big-logo">
+    <div style="height: 170px;"></div>
+    <h1 class="phrase overlay text-center">A good burger is the foundation of genuine happiness</h1>
+  </header>
+  </section>
+<div style="height: 80px;"></div>
+<!-- Content section -->
+<div class="card-columns pl-2 pr-2">
+  <!---ingredients-->
+   <div class="card">
+    <img class="card-img-top" src="images/kitchen.jpg" alt="Card image cap">
+    <div class="card-body text-center">
+      <h5 class="card-title">Our Ingredients</h5>
+      <p class="card-text">Discover where everything begins.</p>
+    </div>
+  </div>
+  <div class="division" style="height: 30px;"></div>
+<!---Locator-->
+<div class="card" >
+  <div class="card-body">
+    <h5 class="card-title text-center"> Come to visit us</h5>
+    <p class="card-text text-center">Calle de Serrano, 1, 28001 Madrid</p>
+  </div>
+  <div class="card-body card-body-cascade text-center">
+   
+    <div id="map-container-google-9" class="z-depth-1-half map-container-5 map">
+      <iframe class="reponsive-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1518.7282100995187!2d-3.689227!3d40.4208913!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42289bcb01fd67%3A0x3e2e14b31c298e0!2sCalle%20de%20Serrano%2C%201%2C%2028001%20Madrid%2C%20Spain!5e0!3m2!1sen!2suk!4v1582710212126!5m2!1sen!2suk" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+  </div>
+</div>
+<div class="division" style="height: 50px;"></div>
+<!---Timetable-->
+  <div class="card">
+    <div class="card-body text-center">
+      <h5 class="card-title">TIMETABLE</h5>
+      <p class="card-text">Monday to Friday: 15:00 - 23:00</br>
+        Saturday: 15:00 - 00:00</br>
+        Sunday: 15:00 - 00:00</p>
+      <p class="card-text"><small class="text-muted">We are waiting for you</small></p>
+    </div>
+  </div> 
+ <!---Promotions and offers-->
+    <div class="card">
+      <img class="card-img-top" src="images/two.jpg" alt="Card image cap">
+      <div class="card-body text-center">
+        <h5 class="card-title">Offers and promotions</h5>
+        <p class="card-text">Tasty and cheap,what else?</p>
+      </div>
+    </div>
+<!---Plan your event-->
+<div class="card text-white">
+  <div class="card-body">
+  <img class="card-img" src="images/sharing.jpg" alt="Card image">
+  <div class="card-img-overlay text-center">
+    <h5 class="card-title">Plan an event</h5>
+    <p class="card-text">Celebrate with us</p>
+  </div>
+  </div>
+</div>
+ <!---burguer photo-->
+    <div class="card">
+      <img class="card-img" src="images/holding.jpg" alt="Card image">
+    </div> 
+ <!---Our Service-->
+    <div class="card">
+      <div class="card-body text-center">
+        <h5 class="card-title">Our service</h5>
+        <p class="card-text">Our customers’ opinions</p>
+      </div>
+      <img class="card-img-top" src="images/wait.jpg" alt="Card image cap">
+    </div> 
+  </div>
+  <!-- Footer website big screen-->
+<section class="footer-big-screen"> 
+  <footer class="py-5 bg-dark">
+    <div class="row pl-5">
+      <div class="col-5 col-md">
+        <h5>Follow us</h5>
+        <ul >
+          <div class="l-row">
+            <div class="c-footer__social-media" id="social">
+              <a href="https://www.instagram.com//" target="_blank"><img src="images/instagram.png" alt="" width="60" height="60"></a>
+              <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="" width="60" height="60"></a>
+              <a href="https://twitter.com/" target="_blank" ><img src="images/twitter.png" alt="" width="60" height="60"></a>
+              <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="" width="60" height="60"></a>
+            </div>
+          </div>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Contact us</h5>
+        <ul class="list-unstyled text-small">
+          <li><img src="images/phone.png" alt="" width="60" height="60" class="symbols-contact"><a class="text-muted" href="#">00 34 687 343 8232 </a></li>
+          <li><img src="images/email.png" alt="" width="60" height="60" class="symbols-contact"><a class="text-muted" href="#">brand@burger.com </a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <ul class="list-unstyled text-center" id="footer-information">
+          <li><a class="text-muted" href="#">Careers</a></li>
+          <li><a class="text-muted" href="#">Accebility</a></li>
+          <li><a class="text-muted" href="#"> News</a></li>
+          <li><a class="text-muted" href="#">Privacy settings</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright m-0 text-center text-white">&copy; 2019 <script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script> 
+        Burger Restaurants</div>
+    </div>
+  </footer>
+</section> 
+ <!-- Footer small screen-->
+<section class="footer-small-screen">
+  <footer class="page-footer font-small stylish-color-dark pt-4">
+  <hr>
+    <ul class="list-unstyled list-inline text-center py-2">
+      <h5>Contact us</h5>
+          <ul class="list-unstyled text-small">
+            <li><img src="images/phone.png" alt="" width="60" height="60" class="symbols-contact"><a class="text-muted" href="#">00 34 687 343 8232 </a></li>
+            <li><img src="images/email.png" alt="" width="60" height="60" class="symbols-contact"><a class="text-muted" href="#">brand@burger.com </a></li>
+          </ul>
+    </ul>
+  <ul class="list-unstyled list-inline text-center py-2">
+          <li><a class="text-muted" href="#">Careers</a></li>
+          <li><a class="text-muted" href="#">Accebility</a></li>
+          <li><a class="text-muted" href="#"> News</a></li>
+          <li><a class="text-muted" href="#">Privacy settings</a></li>
+        </ul>
+  <hr>
+    <ul class="list-unstyled list-inline text-center">
+      <div class="c-footer__social-media" id="social">
+                <a href="https://www.instagram.com//" target="_blank"><img src="images/instagram.png" alt="" width="60" height="60"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="" width="60" height="60"></a>
+                <a href="https://twitter.com/" target="_blank" ><img src="images/twitter.png" alt="" width="60" height="60"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="" width="60" height="60"></a>
+    </ul>
+    <!-- Copyright -->
+    <div class="copyright m-0 text-center">&copy; 2019 <script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script> 
+      Burger Restaurants</div>
+    </div>
+</section>
+  </footer> 
+  <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
