@@ -43,7 +43,6 @@ nav ul li a:hover {
   background-color:#ccccff;
   color: black;
 }
-
 h1 {
   font-size: 8rem;
   font-family: 'Permanent Marker', cursive;
@@ -59,16 +58,11 @@ h1 {
   align-items: center;
   height: 100vh;
   padding: 11px 32px 32px;
-  background:#204060;
-}
-
-#description{
-  font-size: 40px;
-  font-weight: 100;
-  font-family: 'Sriracha', cursive;
-  color: white ;
-  margin:auto;
-}
+  background-image: url("https://i.imgur.com/1VQRSEI.jpg");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  }
 
 .about-me-section {
   background:#264d73;
@@ -184,11 +178,11 @@ h1 {
   transition: transform 0.3s ease-out;
 }
 .contact-section {
-    background-color: #fff;
-    display: block;
-    padding: 95px 0;
-    position: relative;
-    text-align: left;
+  background-color: #fff;
+  display: block;
+  padding: 95px 0;
+  position: relative;
+  text-align: left;
 }
 
 .contact-section-header {
