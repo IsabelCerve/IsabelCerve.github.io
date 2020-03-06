@@ -7,8 +7,10 @@
   <title>Isabel Gomez-Viejo | Designer & Developer</title>
   <link rel="stylesheet" href="styles/normalise.css">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Noticia+Text|Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <link rel="apple-touch-icon" sizes="57x57" href="Images/favicons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="Images/favicons/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="Images/favicons/apple-icon-72x72.png">
@@ -26,103 +28,229 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="Images/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+  
 </head>
-<body>
+<body >
   <nav>
     <ul>
-      <li><a href="#about-me">About Me</a></li>
-      <li><a href="#projects">My Projects</a></li>
-      <li><a href="#contact-details">Contact</a></li>
+      <li><a href="#about-me" aria-current="page">About Me</a></li>
+      <li><a href="#projects" aria-current="page">My Projects</a></li>
+      <li><a href="#contact-details" aria-current="page">Contact</a></li>
     </ul>
   </nav>
   <main>
-    <section id="welcome-section" class="welcome-section">
-      <h1>Hello, I am Isabel, <br>UX & UI Designer who loves creating lovely digital products</h1>
+<!---First page-->
+    <section id="principal-page" class="welcome-section">
+      <h1>Hello, I am Isabel,</h1>
+      <p>UX & UI Designer who loves creating lovely digital products</p>
     </section>
-    <section id="about-me" class="about-me-section">
+
+<!---Presentation page-->    
+<section id="about-me" class="about-me-section">
       <h1>About me</h1>
-      <p> 
-        Self-taught Front-End Web Developer and UI/UX designer. Looking for a new challenge after spending many years in the customer service sector. Currently learning JavaScript at freeCodeCamp and UX Design at Interaction Design Foundation.
+      <br>
+      <p> Self-taught Front-End Web Developer and UI/UX designer. Looking for a new challenge after spending many years in the customer service sector. Currently learning JavaScript at freeCodeCamp and UX Design at Interaction Design Foundation.
         <br>I have 2 Bachelor's degrees! One in History and another one in History of Art, and a long work experience from teaching to the customer service sector, with people of all ages. Empathy, methodical and analytical thinking are some of my qualities.
       </p>
-      <div class="courses">
-        <h2>Courses</h2>
-        <ul>
-          <li>Introduction to Photoshop (Domestika)</li>
-          <li>Adobe Photoshop for Web Design (Domestika)</li>
-          <li>Adobe Illustrator for Graphic Design (Domestika)</li>
-        </ul>
+</section>  
+ <hr class="my-2">
+<section class="tools about-me-section" id="tools">
+    <h3>Here's a few of the tools I feel comfortable using:</h3>
+    <div class="p-3 p-lg-5 d-flex align-items-center">
+      <ul class="list-inline dev-icons">
+        <div class="list-inline-item">
+          <li class="list-inline-item">
+            <img src="https://img.icons8.com/dotty/80/000000/adobe-photoshop.png" alt="photoshop symbol">
+            <p>Photoshop</p>
+          </li>
+        </div> 
+      <div class="list-inline-item">
+          <li class="list-inline-item">
+            <img src="https://img.icons8.com/dotty/80/000000/adobe-illustrator.png" alt="illustrator symbol">
+            <p>Illustrator</p>
+          </li>
+        </div> 
+      <div class="list-inline-item">
+        <li class="list-inline-item">
+          <img src="https://img.icons8.com/dotty/80/000000/html-filetype.png" alt="HTML Document Icon">
+            <p>HTML</p>
+       
+        </li>
+        <li class="list-inline-item">
+          <img src="https://img.icons8.com/dotty/80/000000/css.png" alt="CSS Icon">
+            <p>CSS</p>
+        </li> 
+      <div class="list-inline-item">
+        <li class="list-inline-item">
+          <img src="https://img.icons8.com/ios/80/000000/javascript-logo.png" alt="icon JavaScript">
+          
+          <p>JavaScript</p>
+        </li>
       </div>
-      <div class="certificates">
-        <h2>Certificates</h2>
-        <div class="left-column">
-          <h3>User Experience</h3>
-          <ul>
-            <li>Become a UX Designer from Scratch (Interaction Design Foundation)</li>
-            <li>Design Thinking: The Beginner's Guide (Interaction Design Foundation)</li>
-            <li>Human-Computer Interaction (Interaction Design Foundation)</li>
-            <li>User Experience: The Beginner’s Guide (Interaction Design Foundation)</li>
-        </div>
-        <div class="right-column">
-          <h3>Web Development</h3>
-          <ul>
-            <li><a href="https://www.freecodecamp.org/certification/isabelcerve/responsive-web-design">Responsive Web Design</a></li>
-            <li>Front End Libraries (In Progress)</li>
-          </ul>
-        </div>
+      <div class="list-inline-item">
+        <li class="list-inline-item">
+          <img src="https://img.icons8.com/wired/80/000000/wordpress.png" alt="icon WordPress">
+          
+          <p>WordPress</p>
+        </li>
       </div>
-      <div class="tools">
-        <h3>Here's a few of the tools I feel comfortable using:</h3>
-        <ul>
-          <li>Photoshop</li>
-          <li>Illustrator</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>CMS (WordPress)</li>
-          <li>GitHub</li>
-        </ul>
+      <div class="list-inline-item">
+        <li class="list-inline-item">
+          <img src="https://img.icons8.com/dotty/80/000000/github.png" alt="icon GitHub">
+          <p>GitHub</p>
+        </li>
       </div>
-    </section>
-    <section id="projects" class="projects-section">
-      <h1>My projects</h1>
-      <div class="row">
-        <div class="column">
-          <div class="card">
-            <a href="https://codepen.io/isabel-gomez-viejo/full/qBBvBRN" target="_blank" class="project project-tile">
-              <p class="project-title">
-                <span class="code">&lt;</span>
-                Survey form
-                <span class="code">&#47;&gt;</span>
-              </p>  
-            <p>Built using for the design Photoshop and HTML+ CSS to the code.<br>A survey form which lets the users share their craft projects in a blog. </p>  
-          </div>
-        </div>
-        <div class="column">
-          <div class="card">
-            <a href="https://codepen.io/isabel-gomez-viejo/full/qBEWYGb" target="_blank" class="project project-tile">
-              <p class="project-title">
-                <span class="code">&lt;</span>
-                Landing page
-                <span class="code">&#47;&gt;</span>
-              </p>
-            </a>
-            <p>Built using HTML and CSS.<br>A landing page for a restaurant.</p>
+      <div class="list-inline-item">
+        <li class="list-inline-item">
+          <img src="https://img.icons8.com/dotty/80/000000/channel-mosaic.png" alt="icon Bootstrap">
+          <p>Bootstrap</p>
+        </li>
+      </div>
+      </ul>
+    </div>
+  </section>
+<!---Courses and certifications-->
+<section class="about-me-section" id="about">
+<div class="col-lg-12 text-center ">
+    <h3>Certificates and Courses</h3>
+</div>
+<br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <img class="rounded-circle mx-auto d-block img-fluid img-timeline" src="https://img.icons8.com/clouds/100/000000/code.png" alt="Code page draw">
             </div>
-          </div>
-          <div class="column">
-            <div class="card">
-              <a href="Burguerproject/html.html" target="_blank" class="project project-tile">
-                <p class="project-title">
-                  <span class="code">&lt;</span>
-                  Burger restaurant website
-                  <span class="code">&#47;&gt;</span>
-                </p>
-              </a>
-              <p>Built using HTML, CSS and Bootstrap 4<br>Responsive website for a restaurant with having a beautiful design for Laptop, Ipad and phone.</p>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Web Development in freeCodeCamp</h4>
+              </div>  
+              <div class="timeline-body">
+                <ul>
+                  <li>Responsive Web Design (HTML & CSS)</li>
+                  <li>JavaScript Algorithms and Data Structures Certification(JavaScript)</li>
+                  <li>Front End Libraries(in progress)</li>
+                </ul>
               </div>
-            </div> 
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid img-timeline" src="https://img.icons8.com/clouds/100/000000/head-profile.png" alt="draw of a head without face">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>User Experience certificates with Interaction Design Foundation</h4>
+              </div>
+              <div class="timeline-body">
+                <ul>
+                  <li>Become a UX Designer from Scratch</li>
+                  <li>Design Thinking: The Beginner's Guide</li>
+                  <li>Human-Computer Interaction</li>
+                  <li>User Experience: The Beginner’s Guide</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid img-timeline" src="https://img.icons8.com/clouds/100/000000/art-document---v2.png" alt="pencil and paper represening the action of design">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Design tools</h4>
+              </div>
+              <div class="timeline-body">
+                <ul>
+                  <li>Introduction to Photoshop (Domestika)</li>
+                  <li>Adobe Photoshop for Web Design (Domestika)</li>
+                  <li>Adobe Illustrator for Graphic Design (Domestika)</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img class="rounded-circle img-fluid img-timeline" src="https://img.icons8.com/clouds/100/000000/fingerprint.png" alt="">
+            </div>
+
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Soft Skills</h4>
+              </div>
+              <div class="timeline-body">
+                <ul>
+                  <li>Excellent team work as work independently.</li>
+                  <li>Exceptional attention to detail</li>
+                  <li>Organized, methodical and analytical thinker</li>
+                  <li>Creative problem solver</li>
+                  <li>Love for new challenges and new situations</li> 
+                  <li>Excellent customer service skills and rapport building skills</li>
+               </ul>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4> Nothing can
+                <br> stop me
+                <br> now
+              </h4>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="projects" class="projects-section">
+      <h1>My projects</h1>
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="Images/survey.PNG" alt="Card image project survey web">
+          <div class="card-body">
+            <h5 class="card-title">Survey project</h5>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-primary" href="https://codepen.io/isabel-gomez-viejo/pen/qBBvBRN" role="button">Explore this project</a>
+          </div>
         </div>
+        <div class="card">
+          <img class="card-img-top" src="Images/burgerplace.PNG" alt="Card image project burger restaurant web">
+          <div class="card-body">
+            <h5 class="card-title">Landing pages for a Burger restaurant</h5>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-primary" href="Burguerproject/html.html" role="button">Explore this project</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="Images/brasserie.PNG" alt="Card image project brasserie restaurant web">
+          <div class="card-body">
+            <h5 class="card-title">Landing pages for a restaurant</h5>
+          </div>
+          <div class="card-footer">
+            <a class="btn btn-primary" href="https://codepen.io/isabel-gomez-viejo/pen/qBEWYGb" role="button">Explore this project</a>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="contact-details" class="contact-section">
       <div class="contact-section-header">
@@ -134,6 +262,7 @@
     </section>
   </main>
   <footer>
+    <a href="https://icons8.com/icon/64028/adobe-photoshop">Adobe Photoshop, Adobe Illustrator icon by Icons8</a>
     <div class="copyright">&copy; 2019<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Elena Isabel Gomez Viejo</div>
   </footer>
 </body>
