@@ -31,6 +31,7 @@
   
 </head>
 <body >
+<!---Principal navigation menu-->  
   <nav>
     <ul>
       <li><a href="#about-me" aria-current="page">About Me</a></li>
@@ -40,20 +41,20 @@
   </nav>
   <main>
 <!---First page-->
-    <section id="principal-page" class="welcome-section">
-      <h1>Hello, I am Isabel,</h1>
-      <p>UX & UI Designer who loves creating lovely digital products</p>
-    </section>
+<section id="principal-page" class="welcome-section">
+  <h1>Hello, I am Isabel,</h1>
+  <p>UX & UI Designer who loves creating lovely digital products</p>
+</section>
 
 <!---Presentation page-->    
 <section id="about-me" class="about-me-section">
-      <h1>About me</h1>
-      <br>
-      <p> Self-taught Front-End Web Developer and UI/UX designer. Looking for a new challenge after spending many years in the customer service sector. Currently learning JavaScript at freeCodeCamp and UX Design at Interaction Design Foundation.
-        <br>I have 2 Bachelor's degrees! One in History and another one in History of Art, and a long work experience from teaching to the customer service sector, with people of all ages. Empathy, methodical and analytical thinking are some of my qualities.
-      </p>
+  <h2>About me</h2>
+  <hr>
+  <br>
+  <p> Self-taught Front-End Web Developer and UI/UX designer. Looking for a new challenge after spending many years in the customer service sector. Currently learning JavaScript at freeCodeCamp and UX Design at Interaction Design Foundation.
+  <br>I have 2 Bachelor's degrees! One in History and another one in History of Art, and a long work experience from teaching to the customer service sector, with people of all ages. Empathy, methodical and analytical thinking are some of my qualities.
+  </p>
 </section>  
- <hr class="my-2">
 <section class="tools about-me-section" id="tools">
     <h3>Here's a few of the tools I feel comfortable using:</h3>
     <div class="p-3 p-lg-5 d-flex align-items-center">
@@ -83,7 +84,6 @@
       <div class="list-inline-item">
         <li class="list-inline-item">
           <img src="https://img.icons8.com/ios/80/000000/javascript-logo.png" alt="icon JavaScript">
-          
           <p>JavaScript</p>
         </li>
       </div>
@@ -124,14 +124,15 @@
             <div class="timeline-image">
               <img class="rounded-circle mx-auto d-block img-fluid img-timeline" src="https://img.icons8.com/clouds/100/000000/code.png" alt="Code page draw">
             </div>
-            <div class="timeline-panel">
+            <div>
               <div class="timeline-heading">
                 <h4>Web Development in freeCodeCamp</h4>
               </div>  
               <div class="timeline-body">
                 <ul>
                   <li>Responsive Web Design (HTML & CSS)</li>
-                  <li>JavaScript Algorithms and Data Structures Certification(JavaScript)</li>
+                  <li>JavaScript Algorithms and Data Structures<br> 
+                       Certification(JavaScript)</li>
                   <li>Front End Libraries(in progress)</li>
                 </ul>
               </div>
@@ -159,7 +160,7 @@
             <div class="timeline-image">
               <img class="rounded-circle img-fluid img-timeline" src="https://img.icons8.com/clouds/100/000000/art-document---v2.png" alt="pencil and paper represening the action of design">
             </div>
-            <div class="timeline-panel">
+            <div>
               <div class="timeline-heading">
                 <h4>Design tools</h4>
               </div>
@@ -176,7 +177,6 @@
             <div class="timeline-image">
               <img class="rounded-circle img-fluid img-timeline" src="https://img.icons8.com/clouds/100/000000/fingerprint.png" alt="">
             </div>
-
             <div class="timeline-panel">
               <div class="timeline-heading">
                 <h4>Soft Skills</h4>
@@ -206,63 +206,75 @@
     </div>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!---Projects section-->
   <section id="projects" class="projects-section">
-      <h1>My projects</h1>
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="Images/survey.PNG" alt="Card image project survey web">
-          <div class="card-body">
-            <h5 class="card-title">Survey project</h5>
-          </div>
-          <div class="card-footer">
-            <a class="btn btn-primary" href="https://codepen.io/isabel-gomez-viejo/pen/qBBvBRN" role="button">Explore this project</a>
-          </div>
+      <h2>My projects</h2>
+      <hr>
+      <br>
+    <div class="card-deck">
+      <div class="card">
+        <div class="imagebox" >
+            <img src="Images/survey.PNG" alt="Survey web site">
+            <div class="card-body">
+              <h5 class="card-title">Survey project for a craft Website</h5>
+            </div>
+            <div class="main-content">
+                <div class="content">
+                  <a class="btn" href="https://codepen.io/isabel-gomez-viejo/pen/qBBvBRN" role="button">Explore this project</a>
+                </div>
+            </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="Images/burgerplace.PNG" alt="Card image project burger restaurant web">
+      </div>
+      <div class="card">
+        <div class="imagebox">
+          <img src="Images/burgerplace.PNG" alt="Card project burger restaurant web">
           <div class="card-body">
             <h5 class="card-title">Landing pages for a Burger restaurant</h5>
           </div>
-          <div class="card-footer">
-            <a class="btn btn-primary" href="Burguerproject/html.html" role="button">Explore this project</a>
+          <div class="main-content">
+              <div class="content">
+                <a class="btn" href="Burguerproject/html.html" role="button">Explore this project</a>
+              </div>
           </div>
         </div>
-        <div class="card">
-          <img class="card-img-top" src="Images/brasserie.PNG" alt="Card image project brasserie restaurant web">
-          <div class="card-body">
-            <h5 class="card-title">Landing pages for a restaurant</h5>
-          </div>
-          <div class="card-footer">
-            <a class="btn btn-primary" href="https://codepen.io/isabel-gomez-viejo/pen/qBEWYGb" role="button">Explore this project</a>
-          </div>
+    </div>
+
+
+    <div class="card">
+      <div class="imagebox">
+        <img src="Images/brasserie.PNG" alt="Card image project brasserie restaurant web">
+        <div class="card-body">
+          <h5 class="card-title">Landing pages for a restaurant</h5>
+        </div>
+        <div class="main-content">
+            <div class="content">
+              <a class="btn" href="https://codepen.io/isabel-gomez-viejo/pen/qBEWYGb" role="button">Explore this project</a>
+            </div>
         </div>
       </div>
-    </section>
-    <section id="contact-details" class="contact-section">
-      <div class="contact-section-header">
-        <h2>We should totally work together,<br>Contact me:</h2>
-      </div>
-      <div class="contact-links">
-        <a href="https://www.linkedin.com/in/isabel-gomez-viejo/" target="_blank" class="btn contact-details"><i class="Linkedin"></i> LinkedIn</a>
-      </div>
-    </section>
-  </main>
+    </div>
+</section>
+<!---Contact section-->
+<section id="contact-details" class="contact-section">
+  <div class="contact-section-header">
+    <h2>We should totally work together,<br>Contact me:</h2>
+  </div>
+  <br>
+  <br>
+  <div class="contact-links">
+    <div>
+      <img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="icon LinkedIn">
+      <a href="https://www.linkedin.com/in/isabel-gomez-viejo/" target="_blank" class="btn contact-details"><i class="Linkedin"></i> LinkedIn</a>
+    </div>
+    <div>
+      <img src="https://img.icons8.com/bubbles/100/000000/email.png" alt="icon email">
+      <p class="btn contact-details"> isabel_cerve@hotmail.com</p>
+    </div>
+  </div>
+</section>
+</main>
   <footer>
-    <a href="https://icons8.com/icon/64028/adobe-photoshop">Adobe Photoshop, Adobe Illustrator icon by Icons8</a>
+    <a href="https://icons8.com/icon/64028/adobe-photoshop">Icons by Icons8</a>
     <div class="copyright">&copy; 2019<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Elena Isabel Gomez Viejo</div>
   </footer>
 </body>
