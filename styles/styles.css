@@ -76,10 +76,10 @@ nav ul li a:hover {
   align-items: center;
   height: 100vh;
   padding: 11px 32px 32px;
-  background-image: url("https://i.imgur.com/1VQRSEI.jpg");
-  background-position: center;
-  background-repeat: no-repeat; 
+  background-image: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
   }
 /*--------------------------------------------------------------
 # Presentation page
