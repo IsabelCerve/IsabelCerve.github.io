@@ -37,19 +37,19 @@ hr {
   text-align: left;
 }
 .columnas{
-  padding: 50px 0;
+  padding: 50px 0px;
 }
 .solution {
   background: whitesmoke;
   display: block;
   font-size: 20px;
-  padding: 100px 0;
+  padding: 10px 0;
   position: relative;
   text-align: left;
 }
 .solution p {
   padding: 0 10%;
-  line-height: 55px;
+  line-height: 45px;
 }
 .button{
   background-color:#E2A50E!important;
@@ -62,7 +62,6 @@ hr {
   background-color: #4CAF50!important;
   color: white;
 }
-
 .button span {
   cursor: pointer;
   display: inline-block;
