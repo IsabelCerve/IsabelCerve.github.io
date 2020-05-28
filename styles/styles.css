@@ -321,8 +321,8 @@ nav ul li a:hover {
 }
 .imagebox{
   position: relative;
-  width:400px;
-  height: 300px;
+  width:410px;
+  height: 350px;
   background-size: cover;
   border:2px solid #fff;
   overflow: hidden;
