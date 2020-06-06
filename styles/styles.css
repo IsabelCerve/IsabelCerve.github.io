@@ -54,11 +54,11 @@ nav ul li a {
   padding: 14px 26px;
   text-decoration: none;
   font-family: 'Sriracha', cursive;
-  transition: font-size 0.2s;
+  transition: font-size 0.1s;
 }
 nav ul li a:hover {
   background-color:#F2CA27;
-  font-size: 25px;
+  font-size: 20px;
   color: black;
 }
 /*--------------------------------------------------------------
@@ -76,7 +76,7 @@ nav ul li a:hover {
   align-items: center;
   height: 100vh;
   padding: 11px 32px 32px;
-  background-image: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
+  background-image: url('https://images.unsplash.com/photo-1422207258071-70754198c4a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=741&q=80');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; 
@@ -297,6 +297,9 @@ nav ul li a:hover {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+  .small-screen{
+    display:none;
+  }
 }
 /*--------------------------------------------------------------
 # Projects section
@@ -427,6 +430,25 @@ footer .copyright {
   text-align: center;
   width: 100%;
 }
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@media only screen and (max-width: 376px){
+.main-nav{
+  display:none;
+}
+.small-screen {
+  display: block;
+  position: relative;
+}
+}
+@media screen and (max-width: 769px) {
+  .main-nav{
+    display:none;
+ }
+ .small-screen {
+  display: block;
+}
 @media only screen and (min-width : 1224px) {
   nav {
     padding: 10px 0;
@@ -462,3 +484,4 @@ label {
 	text-align: center;
 	line-height: 100vh;
 }}
+ 
